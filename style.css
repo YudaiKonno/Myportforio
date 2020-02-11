@@ -1,5 +1,6 @@
 h1{
   color:red;
+  text-align: center;
 }
 h2{
   text-align: center;
@@ -7,6 +8,7 @@ h2{
 ul{
   background-color: tomato;
   height: 50px;
+  margin-top: 10px;
   width: auto;
   text-align: center;
 
@@ -14,14 +16,18 @@ ul{
 nav{
   display: inline;
   text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color:#FFFFFF;
 }
 
 li{
   display: inline;
   color: #FFFFFF;
-  height: 20px ;
-  width: 40px;
+  height: 60px ;
+  width: 60px;
 }
 
 .wrapper {
@@ -41,6 +47,12 @@ header {
 .container3 {
   display: flex;
 }
+
+.konnofamily{
+  text-align: center;
+border-radius: 50%;
+}
+
 .main {
   background: pink;
   width: 60%;
@@ -95,6 +107,7 @@ ol{
 }
 footer {
   background: plum;
+  margin-right: auto;
 }
 /*ここは記事の枠線のCSS*/
 .box4{
@@ -126,7 +139,7 @@ footer {
    /* ======================== */
    body {
       background-color: #486d46;
-      background-image: url("IT系素材画像.jpg"); /* 640x426 */
+      background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 640x426 */
       background-size: cover;
       background-attachment: fixed;
       background-position: center center;
@@ -136,7 +149,7 @@ footer {
    /* ================== */
    @media (min-width: 640px) {
       body {
-         background-image: url("IT系素材画像.jpg"); /* 1280x854 */
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1280x854 */
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
@@ -147,7 +160,7 @@ footer {
    /* ============ */
    @media (min-width: 1280px) {
       body {
-         background-image: url("IT系素材画像.jpg"); /* 1860x1240 */
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1860x1240 */
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
