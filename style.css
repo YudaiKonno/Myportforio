@@ -1,1 +1,156 @@
+h1{
+  color:red;
+}
+h2{
+  text-align: center;
+}
+ul{
+  background-color: tomato;
+  height: 50px;
+  width: auto;
+  text-align: center;
 
+}
+nav{
+  display: inline;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+li{
+  display: inline;
+  color: #FFFFFF;
+  height: 20px ;
+  width: 40px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header {
+  background: tomato;
+  height: auto;
+}
+.container {
+  display: flex;
+}
+.container2 {
+  display: flex;
+}
+.container3 {
+  display: flex;
+}
+.main {
+  background: pink;
+  width: 60%;
+
+  margin-left: 0px;
+  margin-right: 50%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.main2 {
+  background: pink;
+  width: 60%;
+  margin-left: 50%;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main3 {
+  background: pink;
+  width: 60%;
+  margin-left: 0px;
+  margin-right: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.side{
+  background-color: #9999FF;
+}
+
+.p1{
+  background-color: #FFFFFF;
+}
+.p2{
+  background-color: #FFFFFF;
+}
+.p3{
+  background-color: #FFFFFF;
+}
+.p4{
+  background-color: #FFFFFF;
+}
+/*フッターのリスト*/
+ol{
+  background-color: skyblue;
+  border: 12px dashed;
+  text-decoration-color: blue;
+}
+
+
+
+}
+footer {
+  background: plum;
+}
+/*ここは記事の枠線のCSS*/
+.box4{
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+}
+.box4 p {
+    margin: 0;
+    padding: 0;
+}
+.box21{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: black;
+}
+.box21 p {
+    margin: 0;
+    padding: 0;
+}
+<style type="text/css">
+   /* ======================== */
+   /* ▼共通装飾(兼モバイル用) */
+   /* ======================== */
+   body {
+      background-color: #486d46;
+      background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 640x426 */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+   }
+   /* ================== */
+   /* ▼中くらいの画面用 */
+   /* ================== */
+   @media (min-width: 640px) {
+      body {
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1280x854 */
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: center center;
+      }
+   }
+   /* ============ */
+   /* ▼広い画面用 */
+   /* ============ */
+   @media (min-width: 1280px) {
+      body {
+         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1860x1240 */
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: center center;
+      }
+   }
+</style>
