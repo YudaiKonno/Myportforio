@@ -139,7 +139,7 @@ footer {
    /* ======================== */
    body {
       background-color: #486d46;
-      background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 640x426 */
+      background-image: url("IT系素材画像.jpg"); /* 640x426 */
       background-size: cover;
       background-attachment: fixed;
       background-position: center center;
@@ -149,7 +149,7 @@ footer {
    /* ================== */
    @media (min-width: 640px) {
       body {
-         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1280x854 */
+         background-image: url("IT系素材画像.jpg"); /* 1280x854 */
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
@@ -160,7 +160,7 @@ footer {
    /* ============ */
    @media (min-width: 1280px) {
       body {
-         background-image: url("/Users/konnofamily/Desktop/img/IT系素材画像.jpg"); /* 1860x1240 */
+         background-image: url("IT系素材画像.jpg"); /* 1860x1240 */
          background-size: cover;
          background-attachment: fixed;
          background-position: center center;
