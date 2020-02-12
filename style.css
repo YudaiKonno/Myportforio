@@ -54,7 +54,6 @@ border-radius: 50%;
 }
 
 .main {
-  position: fixed;
   background: pink;
   width: 60%;
 
@@ -64,7 +63,6 @@ border-radius: 50%;
   margin-bottom: 0px;
 }
 .main2 {
-  position: fixed;
   background: pink;
   width: 60%;
   margin-left: 50%;
@@ -73,7 +71,6 @@ border-radius: 50%;
   margin-bottom: 0px;
 }
 .main3 {
-  position: fixed;
   background: pink;
   width: 60%;
   margin-left: 0px;
